@@ -1,0 +1,22 @@
+[project]
+name = "timelambda"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Tony Holroyd",email = "testingtony12@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+]
+
+[tool.poetry]
+packages = [{include = "timelambda", from = "src"}]
+
+
+[tool.poetry.group.dev.dependencies]
+boto3 = "^1.37.23"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

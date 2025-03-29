@@ -1,0 +1,11 @@
+{
+	"name": "Python 3",
+	"image": "mcr.microsoft.com/devcontainers/python:1-3.12-bullseye",
+	"containerEnv": {
+    	"POETRY_VIRTUALENVS_IN_PROJECT": "TRUE"
+	},
+	"features": {
+		"ghcr.io/devcontainers/features/aws-cli:1": {}
+	},
+	"postCreateCommand": "bash -c .devcontainer/normal/postCreateCommand.sh"
+}
