@@ -29,5 +29,3 @@ def get_time_result(now: datetime) -> dict[str, str]:
     image = get_time_image(timestrings)
     bitmap = get_bitmap_from_image(image)
     return {"bitmap": bitmap, "refresh": timestrings["refresh"]}
-
-    return None
