@@ -3,3 +3,7 @@
 __pycache__
 poetry.lock
 dist/
+.coverage
+package.zip
+/package
+.aws-sam/
